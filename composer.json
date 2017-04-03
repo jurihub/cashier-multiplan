@@ -1,6 +1,6 @@
 {
     "name": "jurihub/cashier-multiplan",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Laravel Cashier Multiplan",
     "keywords": ["laravel", "stripe", "billing"],
     "license": "MIT",
@@ -11,7 +11,7 @@
         }
     ],
     "dist": {
-        "url": "https://github.com/jurihub/cashier-multiplan/archive/1.0.2.zip",
+        "url": "https://github.com/jurihub/cashier-multiplan/archive/1.0.3.zip",
         "type": "zip"
     },
     "require": {
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jurihub\\Cashier-Multiplan\\": "src/"
+            "Jurihub\\CashierMultiplan\\": "src/"
         }
     }
 }
