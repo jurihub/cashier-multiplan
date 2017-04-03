@@ -1,5 +1,5 @@
 {
-    "name": "laravel/cashier-multiplan",
+    "name": "jurihub/cashier-multiplan",
     "version": "7.0.0",
     "description": "Laravel Cashier Multiplan",
     "keywords": ["laravel", "stripe", "billing"],
