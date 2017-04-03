@@ -1,14 +1,19 @@
 {
-    "name": "laravel/cashier",
-    "description": "Laravel Cashier provides an expressive, fluent interface to Stripe's subscription billing services.",
+    "name": "laravel/cashier-multiplan",
+    "version": "7.0.0",
+    "description": "Laravel Cashier Multiplan",
     "keywords": ["laravel", "stripe", "billing"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylorotwell@gmail.com"
+            "name": "Jurihub",
+            "email": "info@jurihub.fr"
         }
     ],
+    "dist": {
+        "url": "https://github.com/jurihub/cashier-multiplan/archive/1.0.0.zip",
+        "type": "zip"
+    },
     "require": {
         "php": ">=5.5.9",
         "illuminate/database": "~5.3",
@@ -28,14 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Cashier\\": "src/"
+            "Jurihub\\Cashier-Multiplan\\": "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "8.0-dev"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
