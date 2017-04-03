@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Jurihub\CashierMultiplan;
 
 use Carbon\Carbon;
 
@@ -44,7 +44,7 @@ class MultisubscriptionBuilder extends SubscriptionBuilder
      *
      * @param  string|null  $token
      * @param  array  $options
-     * @return \Laravel\Cashier\Subscription
+     * @return \Jurihub\CashierMultiplan\Subscription
      */
     public function create($token = null, array $options = [])
     {

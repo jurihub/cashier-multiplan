@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Jurihub\CashierMultiplan;
 
 use Carbon\Carbon;
 use LogicException;
@@ -446,7 +446,7 @@ class Subscription extends Model
      * Gets the item by name
      *
      * @param string $plan The plan's ID
-     * @return Laravel\Cashier\SubscriptionItem|null
+     * @return Jurihub\CashierMultiplan\SubscriptionItem|null
      */
     public function subscriptionItem($plan)
     {

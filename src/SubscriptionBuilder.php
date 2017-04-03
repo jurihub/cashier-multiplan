@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Jurihub\CashierMultiplan;
 
 use Carbon\Carbon;
 
@@ -158,7 +158,7 @@ class SubscriptionBuilder
      * Add a new Stripe subscription to the Stripe model.
      *
      * @param  array  $options
-     * @return \Laravel\Cashier\Subscription
+     * @return \Jurihub\CashierMultiplan\Subscription
      */
     public function add(array $options = [])
     {
@@ -170,7 +170,7 @@ class SubscriptionBuilder
      *
      * @param  string|null  $token
      * @param  array  $options
-     * @return \Laravel\Cashier\Subscription
+     * @return \Jurihub\CashierMultiplan\Subscription
      */
     public function create($token = null, array $options = [])
     {
