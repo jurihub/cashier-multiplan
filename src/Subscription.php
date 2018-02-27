@@ -437,7 +437,7 @@ class Subscription extends Model
         ]);
         
         // removes the item from the database
-        $this->subscriptionItems()->where('stripe_plan', $plan)->delete();
+        $item->delete();
         
         return $this;
     }
