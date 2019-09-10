@@ -1,6 +1,6 @@
 {
     "name": "jurihub/cashier-multiplan",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Laravel Cashier Multiplan",
     "keywords": ["laravel", "stripe", "billing"],
     "license": "MIT",
@@ -16,12 +16,12 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "illuminate/database": "~5.3",
-        "illuminate/support": "~5.3",
+        "illuminate/database": "5.*",
+        "illuminate/support": "5.*",
         "dompdf/dompdf": "^0.8.0",
-        "nesbot/carbon": "~1.0",
+        "nesbot/carbon": "*",
         "stripe/stripe-php": "~4.0",
-        "symfony/http-kernel": "~2.7|~3.0"
+        "symfony/http-kernel": "*"
     },
     "require-dev": {
         "illuminate/routing": "~5.3",
